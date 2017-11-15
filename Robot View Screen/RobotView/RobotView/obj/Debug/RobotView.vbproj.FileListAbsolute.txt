@@ -9,3 +9,14 @@ C:\Users\vytal\Documents\Ryerson\CPS613\Project\Robot View Screen\RobotView\Robo
 C:\Users\vytal\Documents\Ryerson\CPS613\Project\Robot View Screen\RobotView\RobotView\obj\Debug\RobotView.exe
 C:\Users\vytal\Documents\Ryerson\CPS613\Project\Robot View Screen\RobotView\RobotView\obj\Debug\RobotView.xml
 C:\Users\vytal\Documents\Ryerson\CPS613\Project\Robot View Screen\RobotView\RobotView\obj\Debug\RobotView.pdb
+C:\Users\vytal\Documents\GitHub\TourBot\tourbot\Robot View Screen\RobotView\RobotView\bin\Debug\RobotView.exe.config
+C:\Users\vytal\Documents\GitHub\TourBot\tourbot\Robot View Screen\RobotView\RobotView\obj\Debug\RobotView.exe
+C:\Users\vytal\Documents\GitHub\TourBot\tourbot\Robot View Screen\RobotView\RobotView\obj\Debug\RobotView.xml
+C:\Users\vytal\Documents\GitHub\TourBot\tourbot\Robot View Screen\RobotView\RobotView\obj\Debug\RobotView.pdb
+C:\Users\vytal\Documents\GitHub\TourBot\tourbot\Robot View Screen\RobotView\RobotView\bin\Debug\RobotView.exe
+C:\Users\vytal\Documents\GitHub\TourBot\tourbot\Robot View Screen\RobotView\RobotView\bin\Debug\RobotView.pdb
+C:\Users\vytal\Documents\GitHub\TourBot\tourbot\Robot View Screen\RobotView\RobotView\bin\Debug\RobotView.xml
+C:\Users\vytal\Documents\GitHub\TourBot\tourbot\Robot View Screen\RobotView\RobotView\obj\Debug\RobotView.vbprojResolveAssemblyReference.cache
+C:\Users\vytal\Documents\GitHub\TourBot\tourbot\Robot View Screen\RobotView\RobotView\obj\Debug\RobotView.RobotView.resources
+C:\Users\vytal\Documents\GitHub\TourBot\tourbot\Robot View Screen\RobotView\RobotView\obj\Debug\RobotView.Resources.resources
+C:\Users\vytal\Documents\GitHub\TourBot\tourbot\Robot View Screen\RobotView\RobotView\obj\Debug\RobotView.vbproj.GenerateResource.Cache
