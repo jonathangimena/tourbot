@@ -83,6 +83,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property placeholder() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("placeholder", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property right() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("right", resourceCulture)
@@ -106,6 +116,16 @@ Namespace My.Resources
         Friend ReadOnly Property Zoo_Map_PREV() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Zoo_Map_PREV", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zoo1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zoo1", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

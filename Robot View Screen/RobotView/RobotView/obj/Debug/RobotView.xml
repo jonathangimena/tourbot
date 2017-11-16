@@ -32,6 +32,11 @@ RobotView
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:RobotView.My.Resources.Resources.placeholder">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:RobotView.My.Resources.Resources.right">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -43,6 +48,11 @@ RobotView
 </summary>
 </member>
 <member name="P:RobotView.My.Resources.Resources.Zoo_Map_PREV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RobotView.My.Resources.Resources.zoo1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

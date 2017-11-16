@@ -24,19 +24,24 @@ Partial Class RobotView
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(RobotView))
         Me.MainPanel = New System.Windows.Forms.Panel()
+        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.EnterButton = New System.Windows.Forms.Button()
         Me.ControlBox = New System.Windows.Forms.GroupBox()
+        Me.RobotViewMap = New System.Windows.Forms.Panel()
         Me.UpButton = New System.Windows.Forms.Button()
         Me.RightButton = New System.Windows.Forms.Button()
         Me.DownButton = New System.Windows.Forms.Button()
         Me.LeftButton = New System.Windows.Forms.Button()
         Me.BackButton = New System.Windows.Forms.Button()
-        Me.RobotViewMap = New System.Windows.Forms.Panel()
-        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
-        Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.AnimalPictureBox = New System.Windows.Forms.PictureBox()
+        Me.MapPictureBox = New System.Windows.Forms.PictureBox()
         Me.MainPanel.SuspendLayout()
-        Me.ControlBox.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
+        Me.ControlBox.SuspendLayout()
+        Me.RobotViewMap.SuspendLayout()
+        CType(Me.AnimalPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MapPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MainPanel
@@ -52,6 +57,21 @@ Partial Class RobotView
         Me.MainPanel.Name = "MainPanel"
         Me.MainPanel.Size = New System.Drawing.Size(1585, 863)
         Me.MainPanel.TabIndex = 0
+        '
+        'StatusStrip1
+        '
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1})
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 841)
+        Me.StatusStrip1.Name = "StatusStrip1"
+        Me.StatusStrip1.Size = New System.Drawing.Size(1585, 22)
+        Me.StatusStrip1.TabIndex = 6
+        Me.StatusStrip1.Text = "StatusStrip1"
+        '
+        'ToolStripStatusLabel1
+        '
+        Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(120, 17)
+        Me.ToolStripStatusLabel1.Text = "ToolStripStatusLabel1"
         '
         'EnterButton
         '
@@ -76,6 +96,16 @@ Partial Class RobotView
         Me.ControlBox.TabIndex = 4
         Me.ControlBox.TabStop = False
         Me.ControlBox.Text = "Controls"
+        '
+        'RobotViewMap
+        '
+        Me.RobotViewMap.BackColor = System.Drawing.SystemColors.Window
+        Me.RobotViewMap.Controls.Add(Me.AnimalPictureBox)
+        Me.RobotViewMap.Controls.Add(Me.MapPictureBox)
+        Me.RobotViewMap.Location = New System.Drawing.Point(72, 71)
+        Me.RobotViewMap.Name = "RobotViewMap"
+        Me.RobotViewMap.Size = New System.Drawing.Size(1440, 549)
+        Me.RobotViewMap.TabIndex = 0
         '
         'UpButton
         '
@@ -127,28 +157,25 @@ Partial Class RobotView
         Me.BackButton.TabIndex = 1
         Me.BackButton.UseVisualStyleBackColor = True
         '
-        'RobotViewMap
+        'AnimalPictureBox
         '
-        Me.RobotViewMap.BackColor = System.Drawing.SystemColors.Window
-        Me.RobotViewMap.Location = New System.Drawing.Point(13, 13)
-        Me.RobotViewMap.Name = "RobotViewMap"
-        Me.RobotViewMap.Size = New System.Drawing.Size(1560, 660)
-        Me.RobotViewMap.TabIndex = 0
+        Me.AnimalPictureBox.Image = Global.RobotView.My.Resources.Resources.placeholder
+        Me.AnimalPictureBox.Location = New System.Drawing.Point(479, 225)
+        Me.AnimalPictureBox.Name = "AnimalPictureBox"
+        Me.AnimalPictureBox.Size = New System.Drawing.Size(273, 171)
+        Me.AnimalPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.AnimalPictureBox.TabIndex = 1
+        Me.AnimalPictureBox.TabStop = False
         '
-        'StatusStrip1
+        'MapPictureBox
         '
-        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 841)
-        Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(1585, 22)
-        Me.StatusStrip1.TabIndex = 6
-        Me.StatusStrip1.Text = "StatusStrip1"
-        '
-        'ToolStripStatusLabel1
-        '
-        Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(120, 17)
-        Me.ToolStripStatusLabel1.Text = "ToolStripStatusLabel1"
+        Me.MapPictureBox.Image = Global.RobotView.My.Resources.Resources.zoo1
+        Me.MapPictureBox.Location = New System.Drawing.Point(0, 0)
+        Me.MapPictureBox.Name = "MapPictureBox"
+        Me.MapPictureBox.Size = New System.Drawing.Size(1600, 1199)
+        Me.MapPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.MapPictureBox.TabIndex = 0
+        Me.MapPictureBox.TabStop = False
         '
         'RobotView
         '
@@ -162,9 +189,13 @@ Partial Class RobotView
         Me.Text = "Form1"
         Me.MainPanel.ResumeLayout(False)
         Me.MainPanel.PerformLayout()
-        Me.ControlBox.ResumeLayout(False)
         Me.StatusStrip1.ResumeLayout(False)
         Me.StatusStrip1.PerformLayout()
+        Me.ControlBox.ResumeLayout(False)
+        Me.RobotViewMap.ResumeLayout(False)
+        Me.RobotViewMap.PerformLayout()
+        CType(Me.AnimalPictureBox, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MapPictureBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -181,4 +212,6 @@ Partial Class RobotView
     Friend WithEvents EnterButton As Button
     Friend WithEvents StatusStrip1 As StatusStrip
     Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
+    Friend WithEvents MapPictureBox As PictureBox
+    Friend WithEvents AnimalPictureBox As PictureBox
 End Class
